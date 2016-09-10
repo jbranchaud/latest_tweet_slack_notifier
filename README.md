@@ -1,3 +1,3 @@
-# elixir_fountain_slack_notifier
+# latest_tweet_slack_notifier
 
-> elixir fountain in your slack
+> all the latest tweets in your slack
