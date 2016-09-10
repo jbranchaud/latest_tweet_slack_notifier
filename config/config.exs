@@ -2,7 +2,7 @@
 # and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
 
-config :elixir_fountain_slack_notifier,
+config :latest_tweet_slack_notifier,
   tweeter: "elixirfountain"
 
 # This configuration is loaded before any dependency and is restricted
@@ -13,11 +13,11 @@ config :elixir_fountain_slack_notifier,
 
 # You can configure for your application as:
 #
-#     config :elixir_fountain_slack_notifier, key: :value
+#     config :latest_tweet_slack_notifier, key: :value
 #
 # And access this configuration in your application as:
 #
-#     Application.get_env(:elixir_fountain_slack_notifier, :key)
+#     Application.get_env(:latest_tweet_slack_notifier, :key)
 #
 # Or configure a 3rd-party app:
 #

@@ -1,7 +1,7 @@
-defmodule ElixirFountainSlackNotifier.Notifier do
+defmodule LatestTweetSlackNotifier.Notifier do
   use GenServer
 
-  @tweeter Application.get_env(:elixir_fountain_slack_notifier, :tweeter)
+  @tweeter Application.get_env(:latest_tweet_slack_notifier, :tweeter)
 
   def start_link do
     initial_state = %{

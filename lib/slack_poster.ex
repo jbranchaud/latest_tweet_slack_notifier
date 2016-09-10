@@ -10,7 +10,7 @@ defmodule SlackPoster do
       :slack_key_part_3
     ]
     |> Enum.map(fn(key) ->
-      Application.get_env(:elixir_fountain_slack_notifier, key)
+      Application.get_env(:latest_tweet_slack_notifier, key)
     end)
     |> Enum.join("/")
     |> (&("/" <> &1)).()

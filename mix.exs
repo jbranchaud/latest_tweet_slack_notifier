@@ -1,8 +1,8 @@
-defmodule ElixirFountainSlackNotifier.Mixfile do
+defmodule LatestTweetSlackNotifier.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :elixir_fountain_slack_notifier,
+    [app: :latest_tweet_slack_notifier,
      version: "0.1.0",
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
@@ -15,7 +15,7 @@ defmodule ElixirFountainSlackNotifier.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     [applications: [:logger, :httpoison],
-     mod: {ElixirFountainSlackNotifier, []}]
+     mod: {LatestTweetSlackNotifier, []}]
   end
 
   # Dependencies can be Hex packages:
